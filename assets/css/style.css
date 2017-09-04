@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Signika+Negative:400,600,700|Cookie');
+
+body {
+	font-family: 'Signika Negative', serif;
+	font-size: 16px;
+	width: 100%;
+	margin-top: 50px;
+	background-color: #ececec;
+}
+
+.top_bar {
+	background-color: rgb(52, 152, 219);
+	min-height: 40px;
+	line-height: 2.5em;
+}
+
+.logo a {
+	color: #fff;
+	font-size: 1.5em;
+	margin-left: 20px;
+	font-family: 'Cookie', sans-serif;
+}
+
+.logo a:hover {
+	text-decoration: none;
+}
+
+nav a {
+	color: #fff;
+	margin-right: 10px;
+	padding-bottom: 5px;
+}
+
+nav a:hover {
+	text-decoration: none;
+	border-bottom: 5px solid rgb(52, 73, 94);
+	color: #ddd;
+}
+
+.user_details {
+	background-color: #fff;
+	padding: 3px;
+	text-align: center;
+}
+
+.user_details img {
+	float: left;
+}
+
+.user_details_left {
+	margin-top: 30px;
+}
+
+.main_column form {
+	background-color: #fff;
+	margin-top: -15px;
+}
+
+.main_column textarea {
+	max-width: 80%;
+	float: left;
+	min-height: 140px;
+	border-radius: 0;
+	border: 0;
+}
+
+.main_column button {
+	width: 20%;
+	min-height: 140px;
+	border-radius: 0;
+	font-size: 1.3em;
+	border: 0;
+}

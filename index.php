@@ -1,19 +1,11 @@
-<?php  
+<?php 
 
-require 'config/config.php';
+include 'includes/header.php';
+session_destroy();
 
 ?>
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>BCC FEED</title>
-</head>
-<body>
-
-<?php echo "Welcome Home"; ?>
+<h1>Welcome to Index Page</h1>
 	
 </body>
 </html>
